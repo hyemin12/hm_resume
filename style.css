@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  color: #333;
+}
+/* p{margin-bottom: 0;;} */
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1080px;
+  padding: 6em;
+  margin: 0 auto;
+}
+header {
+  padding: 1em 0;
+}
+.user-name {
+  margin-bottom: 0.5em;
+}
+.user-wrapper {
+  margin-bottom: 3em;
+}
+.user-item {
+  padding: 0.25em 0;
+}
+.user-icon {
+  margin-right: 15px;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 1em 0;
+}
+.skill-item {
+  padding: 0.25em 0.5em;
+  background-color: #eee;
+  font-size: 0.9em;
+}
+article {
+  display: flex;
+  padding: 2em 0;
+  border-bottom: 1px solid #555;
+}
+article:first-child {
+  border-top: 1px solid #555;
+}
+article > h4 {
+  flex-shrink: 0;
+  width: 150px !important;
+}
+.content-item {
+  width: 100%;
+  padding-bottom: 30px;
+  line-height: 1.4;
+}
+.content-item:last-child {
+  padding-bottom: 0;
+}
+.content-title {
+  margin-bottom: 0.25em;
+  font-size: 1.1em;
+}
+.content-date {
+  display: inline-block;
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+#save-btn {
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  cursor: pointer;
+}

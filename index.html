@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>고혜민 이력서</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div id="save-btn"><i class="fas fa-download"></i> 이력서 다운로드</div>
+    <div class="container" id="root">
+      <header>
+        <div class="user-wrapper">
+          <h1 class="user-name">고혜민</h1>
+          <p class="user-item">
+            <i class="far fa-envelope user-icon"></i>khnm31@naver.com
+          </p>
+          <p class="user-item">
+            <i class="fas fa-user-graduate user-icon"></i>1994년생
+          </p>
+          <p class="user-item"><i class="fas fa-calendar user-icon"></i>신입</p>
+        </div>
+        <div>
+          <p>기술 스택</p>
+          <ul class="skill-wrapper">
+            <li class="skill-item">HTML5</li>
+            <li class="skill-item">CSS3</li>
+            <li class="skill-item">JavaScript</li>
+            <li class="skill-item">React</li>
+            <li class="skill-item">SASS</li>
+            <li class="skill-item">Github</li>
+            <li class="skill-item">netlify</li>
+            <li class="skill-item">jQuery</li>
+            <li class="skill-item">Adobe Photoshop</li>
+            <li class="skill-item">Adobe Illustrator</li>
+            <li class="skill-item">Auto Cad</li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <article>
+          <h4>학력</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <h4 class="content-title">인천가톨릭대학교</h4>
+              <p class="content-subtitle">환경디자인학과</p>
+              <span class="content-date">2013.03 ~ 2017.05</span>
+              <p class="content-text">학점: 3.7/4.5</p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>교육이력</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <h4 class="content-title">
+                한번에 끝내는 프론트엔드 개발 초격차 패키지
+              </h4>
+              <p class="content-subtitle">패스트캠퍼스</p>
+              <span class="content-date">2021.04 ~ 2021.10</span>
+              <p>
+                - Git을 활용한 버전관리<br />
+                - 자바스크립트 함수, 데이터<br />
+                - HTML/CSS/SCSS, display flex를 활용한 구조 설계<br />
+                - Bootstrap 사용 방법, 커스터마이징 하는 법<br />
+                - Vue 문법<br />
+                - React 컴포넌트, 리액트 라우터, style components, react Hook<br />
+                - git을 활용한 netlify 배포
+              </p>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">
+                스마트기기 UX/UI 웹디자인&웹퍼블리셔 과정
+              </h4>
+              <p class="content-subtitle">하이미디어 컴퓨터학원</p>
+              <span class="content-date">2020.04 - 2020.09</span>
+              <p>
+                - 웹 사이트 디자인(포토샵), 벡터디자인(일러스트)<br />
+                - HTML을 이용한 웹페이지 제작 <br />
+                - 자바스크립트 기초 <br />
+              </p>
+              <p>
+                - 제이쿼리, 부트스트랩, 깃허브 <br />
+                - 워드프레스, 그누보드 <br />
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>자격증</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <h4 class="content-title">정보처리기능사</h4>
+              <p class="content-subtitle">한국산업인력공단</p>
+              <span class="content-date">2021.12</span>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">컴퓨터그래픽스기능사</h4>
+              <p class="content-subtitle">한국산업인력공단</p>
+              <span class="content-date">2021.12</span>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">웹디자인기능사</h4>
+              <p class="content-subtitle">한국산업인력공단</p>
+              <span class="content-date">2020.09</span>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>대외활동</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <h4 class="content-title">개발 관련 외 사회경력</h4>
+              <p class="content-subtitle">두에이리원</p>
+              <span class="content-date">2019.05 ~ 2020.01</span>
+              <p class="content-text">
+                - 공연 사업팀<br />
+                - 퇴사 사유 : 경영악화
+              </p>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">개발 관련 외 사회경력</h4>
+              <p class="content-subtitle">스타이엔티</p>
+              <span class="content-date">2021.12</span>
+              <p class="content-text">
+                - 공연사업 및 신규사업팀<br />
+                - 퇴사 사유 : 업직종 전환
+              </p>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">개발 관련 외 사회경력</h4>
+              <p class="content-subtitle">에이엔스테이지</p>
+              <span class="content-date">2017.06 ~ 2017.12</span>
+              <p class="content-text">
+                - 세트미술팀 <br />
+                - 업무 : 방송통신대학교 방송 세트 디자인<br />
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>링크</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <a href="" target="_blank"
+                ><h4 class="content-title">포트폴리오 사이트</h4>
+              </a>
+              <p class="content-subtitle">
+                작업한 포트폴리오와 프로필을 확인 할 수 있는 포트폴리오 사이트
+              </p>
+            </li>
+            <li class="content-item">
+              <a href="https://github.com/hyemin12" target="_blank"
+                ><h4 class="content-title">Github</h4>
+              </a>
+              <p class="content-subtitle">
+                작업 프로젝트 및 코드확인 할 수 있는 깃허브
+              </p>
+            </li>
+            <li class="content-item">
+              <a href="https://hyemin-12.tistory.com/" target="_blank"
+                ><h4 class="content-title">블로그</h4>
+              </a>
+              <p class="content-subtitle">개발 공부하며 운영한 블로그</p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>자기소개서</h4>
+          <ul class="content-wrapper">
+            <li class="content-item">
+              <h4 class="content-title">성장배경</h4>
+              <p>
+                저는 어렸을 때부터 컴퓨터를 활용하여 작업하는 것들을 좋아했습니
+                다. 자연스럽게 다양한 웹 사이트들을 접하게 되었고 사용하면서 불
+                편했던 점, 개선이 필요한 부분에 대해 생각하게 되었습니다. 사이트
+                들의 UI 디자인에 관심을 가지고 있었지만, 본격적으로 공부를 시작
+                하게 된 것은 웹 디자이너로 일하는 친구의 조언입니다. 국비 지원을
+                받아 웹 디자인과 웹 퍼블리셔 과정(교육 프로그램) 을 수강하게
+                되면 서 입니다. 저는 디자인을 하는 것보다 코드를 작성해서 웹을
+                구현하 는 것에 더 큰 매력을 느꼈고, 과정을 모두 수료한 이후에는
+                프론트엔 드 개발에 대해 본격적으로 공부하기 시작했습니다.
+                처음에는 강의 를 들어도 코드를 작성하는 방법도 이해가 안되고,
+                어려웠지만 강의 를 여러 번 듣고 꾸준히 공부한 결과 조금씩 코드를
+                작성할 수 있을 정도로 성장하였습니다.
+              </p>
+              <p>
+                저는 꿈이 있기에 열정을 가질 수 있고, 열정을 가지고 있다면 성장
+                할 수 있다고 생각합니다. 제가 가진 열정을 바탕으로 항상 성장하는
+                개발자가 되겠습니다.
+              </p>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">직무역량</h4>
+              <p>
+                프론트엔드 개발자의 주요 업무는 사용자에게 보여지는 부분 즉, UI
+                그리고 백엔드 API에서 가져온 데이터들을 화면에 입출력 시키는 인
+                터페이스 부분을 작업하는 일 입니다. 그렇기 때문에 HTML / CSS, 프
+                레임워크로 웹 앱의 뼈대를 만들고 자바스크립트와 라이브러리들로
+                API를 요청하고 정보를 받아와 화면에 뿌리는 능력을 필요로 합니다.
+                저는 웹디자인&웹퍼블리셔를 수강 하며 기획안 작성, 와이어 프레 임
+                작성 등 웹 사이트 구성에 필요한 요소에 대해 배웠고, React 문 법
+                강의, 바닐라JS 관련 강의를 통해 서버에 데이터를 요청하고 받으
+                며, React 라이브러리들을 사용하는 법에 대해 학습했습니다.
+              </p>
+              <p>
+                습득한 지식들을 활용하여 대시보드 및 포트폴리오 프로젝트를 제작
+                하였습니다. 프로젝트를 진행하면서 처음 사용해보는 라이브러리들
+                을 사용하는 방법과 xml 형태의 데이터를 서버에 요청하고 받아오는
+                방법을 구현하는데 어려움을 겪었습니다. 하지만 라이브러리들의 예
+                제들을 많이 찾아보면서 필요한 내용을 공부하여 해결하고자 하였습
+                니다. 이번 프로젝트를 하며 react의 다양한 라이브러리들에 대해 알
+                게 되었고, redux store를 활용하여 state를 주고 받는 방법에 대해
+                학 습하게 되었습니다. 하지만 xml에 형태의 데이터를 받아오는
+                방법을 해결하려 react-xml-parser 등과 같은 라이브러리를
+                사용하였지만, 이 를 해결할 수는 없었습니다. 또한 SameSite 쿠키
+                관련 오류를 해결하 려고 하였으나, 서버에 대해 지식이 부족하여
+                해결하지 못하였습니 다. 저는 앞으로 부족했던 점을 채우기 위하여
+                서버와 좋은 코드를 작 성하는 방법에 대하여 공부를 하여 제 역량을
+                발전 시킬 것 입니다.
+              </p>
+            </li>
+            <li class="content-item">
+              <h4 class="content-title">나만의 강점과 약점</h4>
+              <p>
+                저의 장점은 컴퓨터 사용능력을 비롯한 습득 능력이 다른 사람보다
+                는 뛰어난 것입니다. 덕분에 미리 배워온 동료들보다 도면 작업을 하
+                는 캐드와 3D 작업을 하는 맥스를 빨리 익혀 수업시간에 오히려 친구
+                들을 가르쳐주는 경우가 많았습니다. 또한 3D 작업을 하는 스케치업
+                과 동영상을 편집하는 프리미어 역시 혼자 익혔습니다. 또한 프론트
+                엔드 개발을 위해 인터넷 강의를 들으며 독학으로 React와 바닐라JS
+                등의 기술을 공부하였습니다. 이처럼 저는 새로운 것을 배우는 것에
+                대한 두려움이 없고 빨리 적응하는 것이 저의 장점이라고 생각합니
+                다.
+              </p>
+              <p>
+                이에 반에 처음 접하는 환경을 낯설어하는 것이 단점이라고 생각합니
+                다. 하지만 제가 가진 긍정적이고 무엇이든지 빨리 적응하고 배우는
+                장점을 활용한다면 이 또한 극복할 수 있을 것이라고 생각됩니다.
+              </p>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
